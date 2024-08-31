@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.result-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="number"] {
+    font-size: 1em;
+    padding: 10px;
+    height: 40px;
+    width: 100px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+select {
+    font-size: 1em;
+    padding: 10px;
+    height: 40px;
+    width: 60px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    width: 60px; 
+    height: 40px;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: skyblue;
+    ;
+}
+
+input[type="text"] {
+    font-size: 1em;
+    padding: 10px;
+    height: 40px;
+    width: 100px; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+}
+
+.reset-button{
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#reset{
+    width: 100px;
+    height: 40px;
+}
